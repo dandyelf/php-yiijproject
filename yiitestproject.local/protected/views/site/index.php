@@ -2,7 +2,7 @@
 /* @var $this SiteController */
 
 // $this->pageTitle=Yii::app()->name;
-$this->pageTitle="Example site build with Yii";
+$this->pageTitle="Hero blog";
 ?>
 
 <!-- <h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1> -->
@@ -15,6 +15,7 @@ $this->pageTitle="Example site build with Yii";
 	<li>View file: <code><?php echo __FILE__; ?></code></li>
 	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
 </ul>
+<p>Gii lounch <a href="http://localhost/index.php?r=gii">Gii</a>.</p>
 
 <p>For more details on how to further develop this application, please read
 the <a href="http://www.yiiframework.com/doc/">documentation</a>.
