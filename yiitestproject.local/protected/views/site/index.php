@@ -8,7 +8,7 @@ $this->pageTitle="Hero blog";
 <!-- <h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1> -->
 <h1>Welcome to <i><?php echo $this->pageTitle; ?></i></h1>
 
-<img src="images/hqdefault.jpg" alt="nice">
+<img src="images/sitelogo.jpg" alt="nice">
 
 <p>You may change the content of this page by modifying the following two files:</p>
 <ul>
