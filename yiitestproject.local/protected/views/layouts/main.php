@@ -19,6 +19,10 @@
 </head>
 
 <body>
+<p> <?php $baseUrl = Yii::app()->baseUrl;
+$cs = Yii::app()->getClientScript();
+$cs->registerScriptFile($baseUrl.'/js/addpage.js');
+?>
 
 <div class="container" id="page">
 
@@ -54,6 +58,5 @@
 	</div><!-- footer -->
 
 </div><!-- page -->
-
 </body>
 </html>
